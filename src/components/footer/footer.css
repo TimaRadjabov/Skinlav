@@ -1,0 +1,58 @@
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.adress__descr {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #818285;
+  padding-bottom: 6px;
+}
+.adress__mari {
+  display: flex;
+  align-items: center;
+}
+.adress__mari-img {
+  padding-right: 10px;
+}
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  padding-top: 28px;
+}
+.instagram {
+  padding-right: 14px;
+}
+.footer__phone{
+   display: flex;
+   flex-direction: column;
+}
+.franchise {
+  padding-top: 30px;
+  max-width: 220px;
+  display: flex;
+}
+.franchise__img {
+  padding-right: 17px;
+}
+.franchise__descr {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #303030;
+}
+
+@media (max-width: 767px) {
+  .footer__content {
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+  }
+}

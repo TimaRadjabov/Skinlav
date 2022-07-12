@@ -1,0 +1,48 @@
+.nineth__body {
+  background-color: #e8edf2;
+  position: relative;
+  height: 1124px;
+}
+.nineth-content {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  padding-top: 120px;
+}
+.nineth__title {
+  max-width: 488px;
+  padding-bottom: 50px;
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #2f5a86;
+  margin-right: 75px;
+}
+.nineth__decsr {
+  max-width: 488px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  color: #303030;
+}
+.nineth__decsr span {
+  font-weight: 500;
+}
+.nineth__first {
+  margin-right: 30px;
+}
+.nineth__first:last-child {
+  margin-right: 0px;
+}
+.nineth__img {
+  position: absolute;
+  bottom: 25%;
+  right: -15%;
+}
+.nineth__clients {
+  position: absolute;
+  left: -20%;
+  top: -5%;
+}

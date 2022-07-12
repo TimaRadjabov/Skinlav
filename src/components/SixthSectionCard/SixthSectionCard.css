@@ -1,0 +1,103 @@
+.sixthSectionCard-container{
+	height: 464px;
+	width: 513px;
+	border: 1px solid #DCE7F2;
+border-radius: 4px;
+background: #FFFFFF;
+position: relative;
+}
+
+.sixthSectionCard-container-avtive{
+	min-height: 464px;
+	width: 513px;
+	border: 1px solid #DCE7F2;
+border-radius: 4px;
+background: #FFFFFF;
+position: relative;
+}
+
+.sixthSectionCard__title{
+	margin:0 0 24px 155px;
+	width: 325px;
+}
+.sixthSectionCard__title h1{
+padding-top: 40px;
+padding-right: 50px;
+font-weight: 500;
+font-size: 26px;
+line-height: 150%;
+color: #2F5A86;
+}
+
+.sixthSectionCard__subtitle{
+margin: 0 0 14px 155px;
+font-weight: 300;
+font-size: 14px;
+line-height: 160%;
+color: #303030;
+}
+
+.sixthSectionCard__text{
+	margin-left: 155px;
+	position: relative;
+}
+
+.item__list{
+	display: flex;
+	position: relative;
+}
+.item__list p{
+	width: 260px;
+	margin-left: 32px;
+font-weight: 300;
+font-size: 14px;
+line-height: 160%;
+color: #303030;
+}
+.effect{
+	width: 300px;
+   height: 30px;
+   background: linear-gradient(
+     180deg,
+     rgba(255, 255, 255, 0) 0%,
+     #ffffff 100.83%
+   );
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
+
+.item__list img{
+	position: absolute;
+	top: 5px;
+	left: 0;
+}
+
+.sixthSectionCard__img-img{
+position: absolute;
+top:108px;
+left: 0;
+}
+
+.sixthSectionCard__btn{
+	margin: 20px 0 44px 260px;
+	border: none;
+	font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+}
+.sixthSectionCard__btn button{
+	border: none;
+	color: #87CDFF;
+	background-color: inherit;
+	cursor: pointer;
+}
+
+.sixthSectionCard__btn-img{
+	margin: 5px 0 0 12px;
+	transform: rotate(180deg);
+}
+
+.sixthSectionCard__btn-img-active{
+	padding: 5px 0 0 12px;
+}

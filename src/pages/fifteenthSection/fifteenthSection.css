@@ -1,0 +1,209 @@
+.fifteenth__body {
+  background: linear-gradient(90deg, #e0e4ed 24.14%, #eff3fb 100%), #eff3fb;
+  position: relative;
+  margin-top: -120px;
+
+}
+.fifteenth__main-content {
+  position: relative;
+  z-index: 50;
+}
+.fifteenth__title {
+  max-width: 848px;
+  padding-top: 420px;
+  padding-bottom: 58px;
+}
+.fifteenth__main-title {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #2f5a86;
+}
+.fifteenth__subtitle {
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 150%;
+  color: #303030;
+}
+.fifteenth__first-descr {
+  max-width: 623px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 160%;
+  color: #303030;
+  padding-bottom: 16px;
+}
+.fifteenth__first-descr span {
+  font-weight: 500;
+}
+.fifteenth__second-descr {
+  max-width: 697px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 160%;
+  color: #303030;
+  padding-bottom: 42px;
+}
+.fifteenth__second-descr span {
+  font-weight: 500;
+}
+.fifteenth__cards {
+  display: flex;
+}
+.fifteenth__card {
+  max-width: 352px;
+  background-color: #fff;
+
+  position: relative;
+}
+.number__block-img {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+.fifteenth__cards > *:not(:last-child) {
+  margin-right: 20px;
+}
+.card__main-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #818285;
+  padding: 70px 48px 0px 30px;
+}
+.card__subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #2f5a86;
+  padding: 0px 48px 20px 30px;
+}
+.fifteenth__card-descr {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 160%;
+  color: #303030;
+  padding: 0px 30px 30px 30px;
+}
+.fifteenth__about {
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-between;
+  padding-bottom: 285px;
+}
+.fifteenth__profile-img {
+  display: flex;
+  align-items: center;
+}
+.profile__name {
+  max-width: 135px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #2f5a86;
+}
+.profile__img {
+  margin-right: 16px;
+}
+.about__descr {
+  max-width: 365px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 160%;
+  color: #303030;
+}
+.about__descr span {
+  font-weight: 500;
+}
+.profile__list {
+  padding-top: 40px;
+}
+.profile__item {
+  display: flex;
+  align-items: flex-start;
+}
+.profile__item-icon {
+  padding-right: 19px;
+}
+.profile__item-descr {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 160%;
+  color: #303030;
+  padding-bottom: 16px;
+  max-width: 300px;
+  margin-top: -7px;
+}
+.owner__photo {
+  position: absolute;
+  top: 11%;
+  right: -6%;
+  z-index: 1;
+}
+.profile__circle {
+  width: 244px;
+  height: 244px;
+  border-radius: 50%;
+  background: radial-gradient(
+    100% 602.48% at 0% 3.79%,
+    rgba(232, 237, 242, 0) 0%,
+    rgba(255, 255, 255, 0.22) 0.01%,
+    #ffffff 50%,
+    rgba(232, 237, 242, 0.2) 100%
+  );
+  backdrop-filter: blur(15px);
+  padding: 45px 0px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  position: absolute;
+  top: 55%;
+  right: 10%;
+  z-index: 10;
+}
+.profile__circle-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+}
+.profile__circle-descr {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+  color: #303030;
+  padding: 10px;
+}
+.profile__circle-descr span {
+  font-weight: 500;
+}
+.profile__logo {
+  position: absolute;
+  bottom: 26%;
+  right: 23%;
+  z-index: 10;
+}
+
+.twelfth__cart.fifteenth__cart {
+  position: relative;
+  margin-top: -210px;
+  z-index: 100;
+
+  height: 420px;
+  background-image: url("../../uikit/static/fifteenth-section/background.jpg");
+  background-position: 0 center;
+  background-repeat: no-repeat;
+}
+.cart__content.fifteenth {
+  max-width: 700px;
+  margin-right: 80px;
+
+}
+.cart__content-btn.fifteenth {
+  max-width: 367px;
+}

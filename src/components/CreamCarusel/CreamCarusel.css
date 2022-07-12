@@ -1,0 +1,53 @@
+.cream__container{
+	min-width: 513px;
+	min-height: 464px;
+	display: flex;
+}
+
+.cream__window{
+	width: 1056px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.cream__card{
+	display: flex;
+	justify-content: space-between;
+}
+
+.cream__btn{
+	margin-right: 30px;
+	position: none;
+}
+@media (max-width: 1200px){
+	.cream__window{
+		width: 525px;
+	}
+	.cream__container{
+		margin-left: 240px;
+	}
+}
+@media (max-width: 1024px){
+	.cream__container{
+		margin-left: 160px;
+	}
+	.background__photo {
+		bottom: 40%;
+  }
+}
+@media (max-width: 868px){
+	.cream__container{
+		margin-left: 100px;
+	}
+	.background__photo {
+		left: -27%;
+  }
+}
+@media (max-width: 768px){
+	.cream__container{
+		margin-left: 10px;
+	}
+	.background__photo {
+		left: -38%;
+  }
+}

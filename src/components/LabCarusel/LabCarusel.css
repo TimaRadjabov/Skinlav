@@ -1,0 +1,79 @@
+.carusel__container{
+	min-width: 440px;
+	min-height: 749px;
+	display: flex;
+}
+
+.window{
+	width: 940px;
+	height: 100%;
+	overflow: hidden;
+	
+}
+.carusel__mask{
+	position: absolute;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) -80%, #FFFFFF 120%);
+	width: 200px;
+	min-height: 842px;
+	left: 85%;
+	z-index: 999;
+}
+
+.lab__background{
+	background-image: url("../../uikit/static/second-section/01.jpg");
+}
+.lab__care__background{
+	background-image: url("../../uikit/static/second-section/02.jpg");
+}
+.lab__plus__background{
+	background-image: url("../../uikit/static/second-section/03.jpg");
+}
+
+.list{
+	margin-left: 30px;
+	padding: 0;
+}
+.list li::marker{
+	font-size: 30px;
+	line-height: 0;
+}
+@media (max-width: 1290px) {
+	.carusel__mask{
+		left: 88%;
+		width: 130px;
+	}
+}
+@media (max-width: 1224px) {
+	.lab__carousel {
+		position: absolute;
+		right: 28%;
+  }
+ 
+	.window{
+		width: 440px;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+}
+@media (max-width: 850px) {
+	.carusel__mask{
+		left: 58%;
+	}
+}
+@media (max-width: 812px) {
+	.carusel__mask{
+		display: none;
+	}
+}
+@media (max-width: 768px) {
+	.lab__carousel {
+		right: 20%;
+  }
+}
+@media (max-width: 664px) {
+	.lab__carousel {
+		display: none;
+  }
+}
+

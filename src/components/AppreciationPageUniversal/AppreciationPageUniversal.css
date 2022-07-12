@@ -1,0 +1,177 @@
+ .wrapper{
+	background: url("../../uikit/static/AppreciationPage/фон.svg") no-repeat;
+ }
+ .appreciationPage__header{
+	width: 100%;
+	height: 100px;
+	background-color: #FFFFFF;
+	align-items: center;
+}
+ .appreciationPage__body{
+	max-width: 1171px;
+	padding: 0 15px;
+	margin: 0 auto;
+	position: relative;
+ }
+
+ .appreciationPage__body-title h1{
+	font-family: Prata;
+	font-style: Regular;
+	text-transform: uppercase;
+	font-size: 36px;
+	line-height: 54px;
+	color: #2F5A86;
+ }
+
+ .appreciationPage__body h4{
+	margin-top: 26px;
+	font-size: 18px;
+	line-height: 25px;
+	color: #303030;
+ }
+
+ .appreciationPage__schedule{
+	display: flex;
+	margin-top: 17px;
+	text-align: center;
+	width: 568px;
+	height: 99px;
+	background: radial-gradient(100% 602.48% at 0% 3.79%, rgba(232, 237, 242, 0) 0%, rgba(255, 255, 255, 0.22) 0.01%, #FFFFFF 50%, rgba(232, 237, 242, 0.2) 100%);
+	border: 2px solid;
+	border-image-source: radial-gradient(100% 602.48% at 100% 0%, #FFFFFF 0%, #F1F8FF 55.73%, #FFFFFF 100%);
+ }
+
+ .work__schedule{
+	display: flex;
+	align-items: center;
+	padding-left: 28px;
+ }
+
+ .appreciationPage__time p{
+	font-size: 12px;
+	text-align: left;
+	color:#303030;
+ }
+
+ .appreciationPage__time p span{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+ }
+
+ .appreciationPage__body-descrip p{
+	font-size: 14px;
+	line-height: 21px;
+	color: #818285;
+	display: block;
+	width: 540px;
+	margin-top: 14px;
+ }
+
+ .appreciationPage__body h3 {
+	font-size: 20px;
+	margin-top: 26px;
+	color:#303030;
+ }
+
+ .appreciationPage__social-network{
+	display: flex;
+	margin-top: 16px;
+ }
+
+ .all-social-style{
+	display: flex;
+	align-items: center;
+
+ }
+ .all-social-style p{
+font-size: 16px;
+ }
+
+ .social__icons{
+	margin-left: 25px;
+ }
+
+ .social__icons img{
+	padding-right: 14px;
+ }
+
+ .appreciationPage__icon{
+margin-left: 60px;
+ }
+
+ .appreciationPage__body h2{
+	font-family: Prata;
+	font-style: Regular;
+	font-size: 24px;
+	line-height: 150%;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #2F5A86;
+	display: block;
+	width: 661px;
+	margin-top: 28px;
+ }
+
+ .appreciationPage__name{
+	position: absolute;
+	width: 186px;
+	height: 186px;
+	left: 732px;
+	top: 154px;
+	border: 2px solid;
+	border-image-source: radial-gradient(100% 602.48% at 100% 0%, #FFFFFF 0%, #F1F8FF 55.73%, #FFFFFF 100%);
+	border-radius: 50%;
+	background: linear-gradient(127.49deg, rgba(232, 237, 242, 0) 14.45%, rgba(255, 255, 255, 0.14) 14.46%, #FFFFFF 47.67%, rgba(255, 255, 255, 0.4) 85.7%);
+	background-blend-mode: overlay, normal;
+backdrop-filter: blur(15px);
+	z-index: 1;
+ }
+
+ .appreciationPage__name p{
+	font-family: Prata;
+	font-style: Regular;
+	text-align: center;
+	font-weight: 400;
+	font-size: 18px;
+	text-transform: uppercase;
+	line-height: 27px;
+	color: #2F5A86;
+	display: block;
+	width: 165px;
+	height: 54px;
+	padding: 38px 0 0 16px;
+ }
+
+ .appreciationPage__name span{
+	font-family: Manrope;
+	font-style: Regular;
+	font-weight: 400;
+	font-size: 14px;
+	color: #303030;
+	line-height: 22px;
+	text-align: center;
+	display: block;
+	width: 170px;
+	height: 44px;
+	padding: 43px 0 0 14px;
+ }
+
+ .appreciationPage__img img{
+	position: absolute;
+	width: 415px;
+	height: 452px;
+	left: 816px;
+	top: 68px;
+}
+
+.appreciationPage__btn{
+	margin: 28px 0 57px 0;
+	width: 290px;
+   height: 52px;
+   background: #FFFFFF;
+   border: 1px solid #87CDFF;
+   border-radius: 100px;
+	color:#87CDFF;
+	cursor: pointer;
+}

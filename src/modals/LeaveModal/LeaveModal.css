@@ -1,0 +1,21 @@
+.modal__file{
+display: flex;
+margin-top: 16px;
+}
+.modal__file-text{
+	font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+color: #303030;
+display: block;
+width: 227px;
+margin-left: 14px;
+}
+.modal__foto-leave{
+	width: 437px;
+   height: 284px;
+	margin-left: -41px;
+	margin-top: 12px;
+}

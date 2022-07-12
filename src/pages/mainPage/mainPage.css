@@ -1,0 +1,208 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  padding-top: 25px;
+}
+.main {
+  background-image: url("../../uikit/static/first-section/background.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.first-section__info {
+  max-width: 684px;
+}
+.first-section__descr {
+  padding-top: 21px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 160%;
+  color: #303030;
+}
+.first-section__descr span {
+  font-weight: 700;
+}
+.first-section__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  background-image: url("../../uikit/static/first-section/first-card-back.jpg");
+  max-width: 355px;
+  height: 125px;
+  padding: 21px 19px;
+  border-radius: 4px;
+  margin: 37px 0px 46px 0px;
+}
+.card__number {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  text-align: right;
+  color: #2f5a86;
+  padding-right: 15px;
+}
+.card__descr {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 160%;
+  color: #303030;
+  padding-top: 3px;
+  padding-right: 11px;
+}
+.card__descr span {
+  font-weight: 500;
+}
+.card__descr.second {
+  padding-top: 16px;
+}
+.card__descr.third {
+  padding-top: 16px;
+}
+.card.second {
+  max-width: 342px;
+  background-image: url("../../uikit/static/first-section/second-card-back.jpg");
+}
+.card.third {
+  max-width: 358px;
+  background-image: url("../../uikit/static/first-section/third-card-back.jpg");
+}
+.form-section {
+  padding-bottom: 30px;
+}
+.section__form-body {
+  background-color: #fff;
+}
+.section__form-title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color: #303030;
+  text-align: center;
+  padding-top: 41px;
+}
+.section__form {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 27px;
+}
+.section__form-descr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #a4a6aa;
+  padding-top: 19px;
+  padding-bottom: 40px;
+}
+.section__form-descr a {
+  color: #87cdff;
+}
+
+@media (max-width: 1280px) {
+  .main {
+    background-image: url("../../uikit/static/first-section/background.jpg");
+    background-position: 70% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .first-section__info {
+    max-width: 580px;
+  }
+  .first-section__descr {
+    padding-top: 15px;
+    font-size: 18px;
+  }
+  .card {
+    max-width: 320px;
+    height: 100px;
+    padding: 18px 15px;
+    margin: 25px 0px 28px 0px;
+  }
+  .card__number {
+    font-size: 18px;
+    padding-right: 10px;
+  }
+  .card__descr {
+    font-size: 14px;
+    padding-right: 8px;
+  }
+
+  .card__descr.second {
+    padding-top: 10px;
+  }
+  .card__descr.third {
+    padding-top: 10px;
+  }
+  .card.second {
+    max-width: 320px;
+  }
+  .card.third {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 1148px) {
+  .section__form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section__form>*{
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 1024px) {
+  .first-section__cards {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .card {
+    max-width: 300px;
+    height: 100px;
+    padding: 18px 15px;
+    margin: 15px 0px 15px 0px;
+  }
+  .section__form-title {
+    font-size: 18px;
+    line-height: 120%;
+    padding-top: 30px;
+  }
+}
+@media (max-width: 940px) {
+  .main {
+    background-image: url("../../uikit/static/first-section/background.jpg");
+    background-position: 60% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .first-section__info {
+    max-width: 430px;
+  }
+  .first-section__descr {
+    font-size: 14px;
+  }
+  .section__form-title {
+    font-size: 16px;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 640px) {
+  .card {
+    width: 300px;
+    padding: 15px 15px 0px 15px;
+    margin-top: 0px;
+  }
+  .section__form-descr {
+    font-size: 14px;
+    line-height: 120%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}

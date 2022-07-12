@@ -1,0 +1,67 @@
+.seventh__body {
+   background-image: url("../../uikit/static/seventh-section/background.jpg");
+   background-position: 0 center;
+   background-repeat: no-repeat;
+   max-width: 1300px;
+   height: 422px;
+   position: relative;
+   margin: -300px auto 0px auto;
+ }
+ .seventh__content {
+   display: flex;
+   flex-direction: column;
+   max-width: 565px;
+ 
+   position: absolute;
+   top: 20%;
+   right: 5%;
+ }
+ .seventh__title {
+   font-family: "Prata", serif;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 150%;
+   text-transform: uppercase;
+   color: #2f5a86;
+   padding-bottom: 37px;
+ }
+ .seventh__button {
+   max-width: 244px;
+ }
+ @media (max-width: 768px) {
+  .seventh__body {
+    max-width: 700px;
+    height: 320px;
+  }
+  .seventh__title {
+    font-size: 24px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .seventh__button {
+    max-width: 244px;
+    margin: 0 auto;
+  }
+ }
+ @media (max-width: 650px) {
+  .seventh__body {
+    max-width: 600px;
+    height: 240px;
+    margin-top: 15px;
+  }
+  .seventh__title {
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+ }
+ @media (max-width: 424px) {
+  .seventh__body {
+    max-width: 400px;
+    height: 360px;
+    margin-top: 15px;
+  }
+  .seventh__title {
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+ }

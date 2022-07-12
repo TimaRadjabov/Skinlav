@@ -1,0 +1,35 @@
+.input {
+  display: flex;
+  align-items: center;
+  min-width: 258px;
+  height: 74px;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+}
+.input__error {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  min-width: 258px;
+  height: 74px;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+}
+.input-field {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 150%;
+  color: #a4a6aa;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+.form__icon {
+  padding-left: 24px;
+  padding-right: 19px;
+}

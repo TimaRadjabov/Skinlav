@@ -1,0 +1,28 @@
+.circle__title {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2f5a86;
+  max-width: 142px;
+}
+.circle__subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #303030;
+  text-align: center;
+}
+.circle__subtitle.subtitle{
+ font-size: 18px;
+ font-weight: 500;
+}
+.circle__text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #303030;
+}

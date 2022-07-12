@@ -1,0 +1,75 @@
+.sixteenth__body {
+  background-image: url("../../uikit/static/sixteenth-section/background.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+.sixteenth__title {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #2f5a86;
+  max-width: 560px;
+  padding-bottom: 53px;
+  padding-top: 30px;
+}
+.sixteenth__container {
+  display: flex;
+}
+.sixteenth__container > * {
+  flex: 0 0 50%;
+}
+.left__side-parag {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  color: #303030;
+  padding-bottom: 42px;
+  max-width: 508px;
+}
+.sixteenth__card {
+  max-width: 558px;
+  background: #ffffff;
+  border: 1px solid #e8edf2;
+  border-radius: 4px;
+  margin-bottom: 30px;
+
+}
+.card__inner{
+padding: 55px 50px 43px 50px;
+}
+.sixteenth__card-title {
+  display: flex;
+  justify-content: space-between;
+}
+.sixteenth__card__main-title{
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 160%;
+  color: #2f5a86;
+  padding-right: 38px;
+}
+.sixteenth__card__icon{
+   margin-top: -10px;
+}
+.sixteenth__card-descr{
+   display: flex;
+   align-items: flex-start;
+   padding-top: 16px;
+}
+.card__descr-icon{
+   padding-right: 15px;
+}
+.card__descr-parag {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 160%;
+  color: #303030;
+  margin-top: -8px;
+}
+
+.right__side{
+   margin-top: -90px;
+   margin-left: 20px;
+}

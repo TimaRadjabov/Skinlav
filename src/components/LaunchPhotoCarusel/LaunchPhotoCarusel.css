@@ -1,0 +1,39 @@
+.launchPhoto-comtainer{
+	width: 1140px;
+	height: 600px;
+}
+
+.launchPhoto{
+	width: 1140px;
+	height: 600px;
+}
+
+.launchPhoto__window{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.launchPhoto__img-first{
+background-image: url(../../uikit/static/LaunchPhotoCarusel/photo-01.jpg);
+}
+
+.launchPhoto__img-second{
+	background-image: url(../../uikit/static/LaunchPhotoCarusel/photo-02.jpg);
+}
+.launchPhoto__img-three{
+	background-image: url(../../uikit/static/LaunchPhotoCarusel/photo-03.jpg);
+}
+.launchPhoto__img-four{
+	background-image: url(../../uikit/static/LaunchPhotoCarusel/photo-04.jpg);
+}
+.launchPhoto__img-five{
+	background-image: url(../../uikit/static/LaunchPhotoCarusel/photo-05.jpg);
+}
+.launchPhoto__img-six{
+	background-image: url(../../uikit/static/LaunchPhotoCarusel/photo-06.jpg);
+}
+
+.launchPhoto__btn{
+	left: 1056px;
+}

@@ -1,0 +1,65 @@
+/* font-family: 'Manrope', sans-serif;
+font-family: 'Prata', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+html,
+body {
+  height: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  max-width: 1920px;
+}
+.container {
+  max-width: 1360px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.text-container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  z-index: 10;
+}
+.last__form-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  color: #a4a6aa;
+  padding-top: 19px;
+}

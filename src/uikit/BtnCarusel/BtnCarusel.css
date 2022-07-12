@@ -1,0 +1,37 @@
+.carusel__btns{
+	margin-right: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.carusel__btns *:last-child {
+	margin-top: 19px;
+}
+
+.disabled{
+	background-color: #ffffff;
+	width: 54px;
+	height: 54px;
+	border: 1px solid rgba(205, 208, 212, 1);
+	border-radius: 50%;
+	cursor: pointer;
+	transform: rotate(180deg);
+}
+
+.carusel__arrow{
+	background-color: #ffffff;
+	width: 54px;
+	height: 54px;
+	border: 1px solid rgba(135, 205, 255, 1);
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.carusel__arrow-next{
+	display: block;
+	margin: 35% auto;
+}
+
+.last__arrow{
+	transform: rotate(180deg);
+}

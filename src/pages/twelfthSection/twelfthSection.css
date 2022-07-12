@@ -1,0 +1,121 @@
+.twelfth__body {
+  background-image: url("../../uikit/static/eighth-section/background.jpg");
+  margin-top: 120px;
+}
+.twelfth__content {
+  padding: 120px 144px 43px 144px;
+}
+.twelfth__title {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 50px;
+}
+.twelfth__subtitle {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 160%;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+.twelfth__parag {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #9299a5;
+  padding-bottom: 43px;
+}
+.twelfth__list {
+  display: flex;
+  justify-content: center;
+}
+.twelfth__list > *:not(:last-child) {
+  margin-right: 20px;
+}
+.twelfth__item {
+  width: 150px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dce7f2;
+  border-radius: 100px;
+}
+.twelfth__item:hover {
+  background: #87cdff;
+}
+.twelfth__item-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  text-align: center;
+  color: #dce7f2;
+}
+.calculator {
+  margin: 0 85px;
+}
+.thwelfth__profit {
+  padding-bottom: 430px;
+}
+.profit {
+  margin: 45px 85px 0px 85px;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 34px 84px 34px 66px;
+}
+.profit__descr {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  color: #ffffff;
+}
+.profit__amount {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 160%;
+  text-align: right;
+  color: #ffffff;
+}
+
+.twelfth__cart {
+  background-image: url("../../uikit/static/twelfth-section/background.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -390px;
+  position: relative;
+  z-index: 100;
+}
+.cart__content {
+  max-width: 500px;
+  margin: 80px 60px 94px 0px; 
+}
+.cart__content-title {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #2f5a86;
+}
+.cart__content-subtitle {
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 140%;
+  color: #303030;
+  padding-bottom: 50px;
+
+}
+.cart__content-btn{
+  max-width: 336px;
+}

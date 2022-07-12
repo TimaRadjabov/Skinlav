@@ -1,0 +1,27 @@
+.seventeenth__body {
+  background-image: url("../../uikit/static/seventeenth-section/background.jpg");
+  background-position: 0 center;
+  background-repeat: no-repeat;
+}
+.seventeenth__text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 160%;
+  text-align: center;
+  color: #303030;
+}
+.seventeenth__subtitle {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 150%;
+  text-align: center;
+  color: #2f5a86;
+}
+.seventeenth__descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #818285;
+  padding-bottom: 450px;
+}

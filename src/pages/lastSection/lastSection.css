@@ -1,0 +1,112 @@
+.last__body {
+  background-image: url("../../uikit/static/last-section/background.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 70px;
+  padding-bottom: 100px;
+}
+.last__content {
+  padding: 120px 0px 72px 0px;
+}
+.last__title {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2f5a86;
+}
+.last__subtitle {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 150%;
+  text-align: center;
+  color: #303030;
+  padding-bottom: 22px;
+}
+.last__descr {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 160%;
+  text-align: center;
+  color: #303030;
+  padding-bottom: 30px;
+}
+.last__descr-second {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #303030;
+}
+.last__form-block {
+  padding: 40px 80px;
+  background-color: #fff;
+
+}
+.last__form-descr {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  color: #303030;
+  padding-bottom: 27px;
+}
+.last__form {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1260px) {
+  .last__form {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .last__form>*:not(:last-child){
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 1024px) {
+  .last__content {
+    padding: 60px 0px 40px 0px;
+  }
+  .last__title {
+    font-size: 28px;
+  }
+  .last__subtitle {
+    font-size: 28px;
+  }
+  .last__descr {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .last__content {
+    padding: 45px 0px 40px 0px;
+  }
+  .last__title {
+    font-size: 24px;
+  }
+  .last__subtitle {
+    font-size: 18px;
+  }
+  .last__descr {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  .last__content {
+    padding: 45px 0px 40px 0px;
+  }
+  .last__title {
+    font-size: 24px;
+  }
+  .last__subtitle {
+    font-size: 18px;
+  }
+  .last__descr {
+    font-size: 14px;
+  }
+}
